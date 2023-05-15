@@ -7,6 +7,9 @@ export default {
   theme: {
     extend: {},
   },
+  daisyui : {
+    themes : ['lofi']
+  },
   plugins: [require("daisyui")],
 }
 
